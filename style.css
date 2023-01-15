@@ -1,0 +1,44 @@
+ main {
+    height: 150px;
+    background-color:antiquewhite;
+ }
+
+ footer {
+    height: 150px;
+    background-color: teal;
+ }
+
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ *,
+ *::before,
+ *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .liNavTop {
+display: inline-block;
+padding: 10px 15px;
+ }
+
+ .liNavTop a {
+    color: black;
+    text-decoration: none;
+ }
+
+ .liNavTop a:hover {
+    background-color: teal;
+    color: antiquewhite;
+
+ }
+
+ulNavTop {
+    font-style: center;
+    font-size: 30px;
+    overflow: hidden;
+    background-color: aqua;
+}
